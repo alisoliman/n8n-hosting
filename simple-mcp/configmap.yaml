@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mcp-config
+data:
+  SERVER_NAME: "Hello World MCP on AKS"
+  LOG_LEVEL: "INFO"

@@ -1,0 +1,24 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment / secrets
+.env
+*.env.local
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Binary blobs
+*.zip
+
+# Embedded repos (use submodules instead)
+simple-mcp/fabric_data_agent_client/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+scripts/
